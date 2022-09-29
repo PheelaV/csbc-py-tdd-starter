@@ -19,3 +19,15 @@ conda env export > environment.yml
 ```bash
 conda env create -f environment.yml
 ```
+
+- Activate an environment, works like stack insert
+
+```bash
+conda activate -n myenvironmentname
+```
+
+- Deactivate an environment, works like stack pop
+
+```bash
+conda deactivate
+```
